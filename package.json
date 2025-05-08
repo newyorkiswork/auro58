@@ -1,0 +1,36 @@
+{
+  "name": "auro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@humeai/voice": "^0.1.10",
+    "@radix-ui/react-dialog": "^1.1.13",
+    "@react-google-maps/api": "^2.20.6",
+    "@supabase/supabase-js": "^2.39.3",
+    "next": "15.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.4.35",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}

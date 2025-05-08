@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Map styles */
+.gm-style-iw {
+  padding: 0 !important;
+}
+
+.gm-style-iw-d {
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.gm-ui-hover-effect {
+  top: 0 !important;
+  right: 0 !important;
+}
+
+/* Responsive map container */
+.map-container {
+  @apply w-full h-[400px] md:h-[500px] lg:h-[600px];
+}
+
+/* Loading states */
+.map-loading {
+  @apply h-[400px] w-full bg-gray-100 flex items-center justify-center;
+}
+
+.map-loading-spinner {
+  @apply animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto;
+}
+
+.map-loading-text {
+  @apply text-gray-600 mt-2;
+}
+
+/* Error states */
+.map-error {
+  @apply h-[400px] w-full bg-gray-100 flex items-center justify-center;
+}
+
+.map-error-text {
+  @apply text-red-600 font-semibold;
+}
+
+.map-error-subtext {
+  @apply text-gray-600 text-sm mt-2;
+} 
